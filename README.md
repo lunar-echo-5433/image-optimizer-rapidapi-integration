@@ -40,14 +40,14 @@ Run the script via the command line. You can pass the source image URL, desired 
 ### Basic Example (Convert to WebP)
 
 ```bash
-python image_optimizer.py --url "[https://picsum.photos/800/600](https://picsum.photos/800/600)" --output "optimized.webp"
+python image_optimizer.py --url "https://picsum.photos/800/600" --output "optimized.webp"
 
 ```
 
 ### Advanced Example (Resize, convert to JPEG, set quality)
 
 ```bash
-python image_optimizer.py --url "[https://picsum.photos/800/600](https://picsum.photos/800/600)" --output "resized.jpeg" --width 400 --format jpeg --quality 85
+python image_optimizer.py --url "https://picsum.photos/800/600" --output "resized.jpeg" --width 400 --format jpeg --quality 85
 
 ```
 
@@ -75,6 +75,3 @@ As requested, before running the Python program, make sure you complete the Rapi
 4. Set the environment variable in your terminal to keep your credentials secure:
    ```bash
    export RAPIDAPI_KEY="your_actual_api_key_here"
-
-```
-
