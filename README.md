@@ -3,9 +3,9 @@
 A Python command-line tool that dynamically resizes, compresses, and converts images on-the-fly using the [Image Optimizer and WebP Converter API on RapidAPI](https://rapidapi.com/rxmrb699/api/image-optimizer-and-webp-converter).
 
 ## Features
-* **WebP Conversion:** Reduce image payload size by up to 70% compared to JPEG/PNG [cite: 1].
-* **Smart Resizing:** Automatically calculates missing dimensions to preserve the original aspect ratio [cite: 1].
-* **Adjustable Quality:** Fine-tune image quality vs. filesize for optimal loading speeds [cite: 1].
+* **WebP Conversion:** Reduce image payload size by up to 70% compared to JPEG/PNG .
+* **Smart Resizing:** Automatically calculates missing dimensions to preserve the original aspect ratio .
+* **Adjustable Quality:** Fine-tune image quality vs. filesize for optimal loading speeds .
 
 ## Prerequisites
 1. Sign up for a [RapidAPI](https://rapidapi.com/) account.
@@ -70,7 +70,7 @@ python image_optimizer.py --url "[https://picsum.photos/800/600](https://picsum.
 
 As requested, before running the Python program, make sure you complete the RapidAPI setup:
 1. Go to the [Image Optimizer and WebP Converter API on RapidAPI](https://rapidapi.com/rxmrb699/api/image-optimizer-and-webp-converter).
-2. Click **Subscribe to Test** (you will get up to 1000 API calls per month for free)[cite: 1].
+2. Click **Subscribe to Test** (you will get up to 1000 API calls per month for free).
 3. Copy your `X-RapidAPI-Key` from the Endpoints dashboard.
 4. Set the environment variable in your terminal to keep your credentials secure:
    ```bash
