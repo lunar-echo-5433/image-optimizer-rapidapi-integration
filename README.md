@@ -65,22 +65,6 @@ python image_optimizer.py --url "[https://picsum.photos/800/600](https://picsum.
 
 
 * `--quality`: Compression quality (1-100). Defaults to `80` .
-"""
-with open("README.md", "w") as f:
-f.write(readme_content)
-
-
-
-```
-
-Your Python (.py) and Markdown (.md) files are ready:
-[file-tag: code-generated-file-c07e36a8-992a-4512-b86c-d902cb7c5983]
-[file-tag: code-generated-file-70460bf5-ade1-42c6-8a0c-c432c63fe887]
-
-Here is a recommended **GitHub branch name** for this feature:
-
-**`feature/image-optimizer-rapidapi-integration`** 
-*(Alternative: `feat/webp-converter-api`)*
 
 ### Quick Start Guide
 
